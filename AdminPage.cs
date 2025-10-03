@@ -16,5 +16,16 @@ namespace CampuStore
         {
             InitializeComponent();
         }
+
+        private void btnUsers_Click(object sender, EventArgs e)
+        {
+            AdminPageUsers adminPageUsers = new AdminPageUsers();
+            adminPageUsers.TopLevel = false;
+            adminPageUsers.FormBorderStyle = FormBorderStyle.None;
+            adminPageUsers.AutoScroll = true;
+            adminPageUsers.Dock = DockStyle.Fill;
+            this.pnlMain.Controls.Add(adminPageUsers);
+            adminPageUsers.Show();
+        }
     }
 }

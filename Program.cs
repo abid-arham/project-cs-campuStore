@@ -16,7 +16,7 @@ namespace CampuStore
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new AdminPageUsers());
+            Application.Run(new AdminPage());
         }
     }
 }
