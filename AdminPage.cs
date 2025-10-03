@@ -19,13 +19,14 @@ namespace CampuStore
 
         private void btnUsers_Click(object sender, EventArgs e)
         {
-            AdminPageUsers adminPageUsers = new AdminPageUsers();
-            adminPageUsers.TopLevel = false;
-            adminPageUsers.FormBorderStyle = FormBorderStyle.None;
-            adminPageUsers.AutoScroll = true;
-            adminPageUsers.Dock = DockStyle.Fill;
-            this.pnlMain.Controls.Add(adminPageUsers);
-            adminPageUsers.Show();
+            this.pnlMain.Controls.Clear();
+            AdminPageUsers form = new AdminPageUsers();
+            form.TopLevel = false;
+            form.FormBorderStyle = FormBorderStyle.None;
+            form.AutoScroll = true;
+            form.Dock = DockStyle.Fill;
+            this.pnlMain.Controls.Add(form);
+            form.Show();
         }
     }
 }
