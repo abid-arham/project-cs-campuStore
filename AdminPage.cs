@@ -19,6 +19,11 @@ namespace CampuStore
 
         private void btnUsers_Click(object sender, EventArgs e)
         {
+            
+        }
+
+        private void btnUser_Click(object sender, EventArgs e)
+        {
             this.pnlMain.Controls.Clear();
             AdminPageUsers form = new AdminPageUsers();
             form.TopLevel = false;
@@ -27,6 +32,18 @@ namespace CampuStore
             form.Dock = DockStyle.Fill;
             this.pnlMain.Controls.Add(form);
             form.Show();
+        }
+
+        private void btnDashboard_Click(object sender, EventArgs e)
+        {
+            this.pnlMain.Controls.Clear();
+        }
+
+        private void btnLogout_Click(object sender, EventArgs e)
+        {
+            
+            
+            
         }
     }
 }
