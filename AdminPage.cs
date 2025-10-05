@@ -37,6 +37,13 @@ namespace CampuStore
         private void btnDashboard_Click(object sender, EventArgs e)
         {
             this.pnlMain.Controls.Clear();
+            AdminDashboard form = new AdminDashboard();
+            form.TopLevel = false;
+            form.FormBorderStyle = FormBorderStyle.None;
+            form.AutoScroll = true;
+            form.Dock = DockStyle.Fill;
+            this.pnlMain.Controls.Add(form);
+            form.Show();
         }
 
         private void btnLogout_Click(object sender, EventArgs e)
@@ -44,6 +51,63 @@ namespace CampuStore
             
             
             
+        }
+
+        private void btnSettings_Click(object sender, EventArgs e)
+        {
+            this.pnlMain.Controls.Clear();
+            AdminSettings form = new AdminSettings();
+            form.TopLevel = false;
+            form.FormBorderStyle = FormBorderStyle.None;
+            form.AutoScroll = true;
+            form.Dock = DockStyle.Fill;
+            this.pnlMain.Controls.Add(form);
+            form.Show();
+        }
+
+        private void btnDashboard_MouseHover(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void btnDashboard_MouseEnter(object sender, EventArgs e)
+        {
+            btnDashboard.BackColor = Color.Blue;
+        }
+
+        private void btnDashboard_MouseLeave(object sender, EventArgs e)
+        {
+            btnDashboard.BackColor = SystemColors.Control;
+        }
+
+        private void btnUser_MouseEnter(object sender, EventArgs e)
+        {
+            btnUser.BackColor = Color.Blue;
+        }
+
+        private void btnUser_MouseLeave(object sender, EventArgs e)
+        {
+            btnUser.BackColor = SystemColors.Control;
+        }
+
+        private void btnSettings_MouseEnter(object sender, EventArgs e)
+        {
+            btnSettings.BackColor = Color.Blue;
+        }
+
+        private void btnSettings_MouseLeave(object sender, EventArgs e)
+        {
+            btnSettings.BackColor= SystemColors.Control;
+        }
+
+        private void btnLogout_MouseEnter(object sender, EventArgs e)
+        {
+            btnLogout.BackColor = Color.Red;
+        }
+
+        private void btnLogout_MouseLeave(object sender, EventArgs e)
+        {
+            btnLogout.BackColor = SystemColors.Control;  
         }
     }
 }

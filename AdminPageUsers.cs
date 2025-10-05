@@ -26,5 +26,20 @@ namespace CampuStore
         {
 
         }
+
+        private void btnSearch_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tableLayoutPanel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void txtSearch_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
