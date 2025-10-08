@@ -213,6 +213,7 @@
             this.Name = "AdminPage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AdminPage";
+            this.Load += new System.EventHandler(this.AdminPage_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.metroPanel3.ResumeLayout(false);
             this.pnlTop.ResumeLayout(false);

@@ -85,6 +85,7 @@
     <Compile Include="AdminSettings.Designer.cs">
       <DependentUpon>AdminSettings.cs</DependentUpon>
     </Compile>
+    <Compile Include="DbHelper.cs" />
     <Compile Include="loginForm.cs">
       <SubType>Form</SubType>
     </Compile>
