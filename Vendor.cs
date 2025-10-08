@@ -64,7 +64,31 @@ namespace CampuStore
             form.Show();
         }
 
-        private void Vendor_Load(object sender, EventArgs e)
+        //private void Vendor_Load(object sender, EventArgs e)
+        //{
+        //    this.pnlMain.Controls.Clear();
+        //    Dashboard form = new Dashboard();
+        //    form.TopLevel = false;
+        //    form.FormBorderStyle = FormBorderStyle.None;
+        //    form.AutoScroll = true;
+        //    form.Dock = DockStyle.Fill;
+        //    this.pnlMain.Controls.Add(form);
+        //    form.Show();
+        //}
+
+        private void btnSales_Click(object sender, EventArgs e)
+        {
+            this.pnlMain.Controls.Clear();
+            Salers form = new Salers();
+            form.TopLevel = false;
+            form.FormBorderStyle = FormBorderStyle.None;
+            form.AutoScroll = true;
+            form.Dock = DockStyle.Fill;
+            this.pnlMain.Controls.Add(form);
+            form.Show();
+        }
+
+        private void Vendor_Load_1(object sender, EventArgs e)
         {
             this.pnlMain.Controls.Clear();
             Dashboard form = new Dashboard();

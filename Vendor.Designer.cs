@@ -94,6 +94,7 @@
             this.btnSales.TabIndex = 5;
             this.btnSales.Text = "Sales";
             this.btnSales.UseVisualStyleBackColor = false;
+            this.btnSales.Click += new System.EventHandler(this.btnSales_Click);
             // 
             // btnLogOut
             // 
@@ -245,7 +246,7 @@
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "Vendor";
             this.Text = "Vendor";
-            this.Load += new System.EventHandler(this.Vendor_Load);
+            this.Load += new System.EventHandler(this.Vendor_Load_1);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();

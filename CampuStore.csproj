@@ -103,6 +103,12 @@
     <Compile Include="NewProduct.Designer.cs">
       <DependentUpon>NewProduct.cs</DependentUpon>
     </Compile>
+    <Compile Include="Salers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salers.Designer.cs">
+      <DependentUpon>Salers.cs</DependentUpon>
+    </Compile>
     <Compile Include="SignupForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -153,6 +159,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Salers.resx">
+      <DependentUpon>Salers.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SignupForm.resx">
       <DependentUpon>SignupForm.cs</DependentUpon>
     </EmbeddedResource>
