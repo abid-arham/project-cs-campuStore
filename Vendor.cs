@@ -26,6 +26,7 @@ namespace CampuStore
         {
             btnDashboard.BackColor = SystemColors.ControlLight;
         }
+<<<<<<< HEAD
 
         private void btnNewProduct_Click(object sender, EventArgs e)
         {
@@ -99,5 +100,7 @@ namespace CampuStore
             this.pnlMain.Controls.Add(form);
             form.Show();
         }
+=======
+>>>>>>> 3b11f591a7ba5d76e53d5ea1db1b0a3f4ec7031b
     }
 }

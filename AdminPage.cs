@@ -109,5 +109,19 @@ namespace CampuStore
         {
             btnLogout.BackColor = SystemColors.Control;  
         }
+
+        private void AdminPage_Load(object sender, EventArgs e)
+        {
+            this.pnlMain.Controls.Clear();
+            AdminDashboard form = new AdminDashboard();
+            form.TopLevel = false;
+            form.FormBorderStyle = FormBorderStyle.None;
+            form.AutoScroll = true;
+            form.Dock = DockStyle.Fill;
+            this.pnlMain.Controls.Add(form);
+            form.Show();
+            
+            
+        }
     }
 }

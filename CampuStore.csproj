@@ -85,18 +85,14 @@
     <Compile Include="AdminSettings.Designer.cs">
       <DependentUpon>AdminSettings.cs</DependentUpon>
     </Compile>
-    <Compile Include="Dashboard.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Dashboard.Designer.cs">
-      <DependentUpon>Dashboard.cs</DependentUpon>
-    </Compile>
+    <Compile Include="DbHelper.cs" />
     <Compile Include="loginForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="loginForm.Designer.cs">
       <DependentUpon>loginForm.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="NewProduct.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -109,6 +105,8 @@
     <Compile Include="Salers.Designer.cs">
       <DependentUpon>Salers.cs</DependentUpon>
     </Compile>
+=======
+>>>>>>> 3b11f591a7ba5d76e53d5ea1db1b0a3f4ec7031b
     <Compile Include="SignupForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -123,12 +121,6 @@
     <Compile Include="Vendor.Designer.cs">
       <DependentUpon>Vendor.cs</DependentUpon>
     </Compile>
-    <Compile Include="VendorInfo.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="VendorInfo.Designer.cs">
-      <DependentUpon>VendorInfo.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="AdminDashboard.resx">
       <DependentUpon>AdminDashboard.cs</DependentUpon>
     </EmbeddedResource>
@@ -141,14 +133,8 @@
     <EmbeddedResource Include="AdminSettings.resx">
       <DependentUpon>AdminSettings.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Dashboard.resx">
-      <DependentUpon>Dashboard.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="loginForm.resx">
       <DependentUpon>loginForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="NewProduct.resx">
-      <DependentUpon>NewProduct.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -167,9 +153,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Vendor.resx">
       <DependentUpon>Vendor.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="VendorInfo.resx">
-      <DependentUpon>VendorInfo.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
